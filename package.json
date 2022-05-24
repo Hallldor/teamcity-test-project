@@ -1,0 +1,23 @@
+{
+  "name": "tc-testing",
+  "version": "1.0.0",
+  "description": "Project - testing teamcity",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "tc"
+  ],
+  "author": "Halldór R",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^28.1.0",
+    "ts-jest": "^28.0.3"
+  }
+}
