@@ -12,12 +12,12 @@
   "author": "Halldór R",
   "license": "MIT",
   "devDependencies": {
-    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.0",
     "jest": "^28.1.0"
   },
   "dependencies": {
     "babel": "^6.23.0",
-    "babel-jest": "^28.1.0",
     "ts-jest": "^28.0.3"
   }
 }
