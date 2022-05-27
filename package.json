@@ -19,6 +19,7 @@
   "dependencies": {
     "babel": "^6.23.0",
     "jest-teamcity": "^1.11.0",
+    "jest-teamcity-reporter": "^0.9.0",
     "ts-jest": "^28.0.3"
   },
   "jest": {
