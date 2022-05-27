@@ -25,6 +25,6 @@
       "js"
     ]
   },
-  "testResultsProcessor": "jest-teamcity-reported",
+  "testResultsProcessor": "jest-teamcity-reporter",
   "coverageReporters": ["lcov", "text", "teamcity"]
 }
