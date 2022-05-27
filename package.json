@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "babel": "^6.23.0",
+    "jest-teamcity": "^1.11.0",
     "ts-jest": "^28.0.3"
   },
   "jest": {
@@ -26,5 +27,9 @@
     ]
   },
   "testResultsProcessor": "jest-teamcity-reporter",
-  "coverageReporters": ["lcov", "text", "teamcity"]
+  "coverageReporters": [
+    "lcov",
+    "text",
+    "teamcity"
+  ]
 }
