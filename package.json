@@ -25,13 +25,13 @@
   "jest": {
     "moduleFileExtensions": [
       "js"
+    ],
+    "testResultsProcessor": "jest-teamcity-reporter",
+    "reporters": ["default", "jest-teamcity"],
+    "coverageReporters": [
+      "lcov",
+      "text",
+      "teamcity"
     ]
-  },
-  "testResultsProcessor": "jest-teamcity-reporter",
-  "reporters": ["default", "jest-teamcity"],
-  "coverageReporters": [
-    "lcov",
-    "text",
-    "teamcity"
-  ]
+  }
 }
