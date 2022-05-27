@@ -4,7 +4,7 @@
   "description": "Project - testing teamcity",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [
     "tc"
@@ -19,5 +19,12 @@
   "dependencies": {
     "babel": "^6.23.0",
     "ts-jest": "^28.0.3"
-  }
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "testResultsProcessor": "jest-teamcity-reported",
+  "coverageReporters": ["lcov", "text", "teamcity"]
 }
